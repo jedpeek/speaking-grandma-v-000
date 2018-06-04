@@ -1,8 +1,10 @@
 # Write a speak_to_grandma method.
 def speak_to_grandma(string)
-  if string == 'WHAT?' || 'WHAT DID YOU EAT TODAY?'
+  if string == 'WHAT?' ||
     return "NO, NOT SINCE 1938!"
   else
+    if string === 'WHAT DID YOU EAT TODAY?'
+      return "NO, NOT SINCE 1938!"
     if (string === string.upcase)
     return "I LOVE YOU TOO PUMPKIN!"
   else
